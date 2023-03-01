@@ -1,0 +1,14 @@
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  build:
+    name: "seifu"
+    path: "./bin"
+    arch: "amd64,arm,arm64"
+    system: "linux"
+    mod: "none"
+    cgo: 0
+    packSrc: "resource/i18n,resource/public,resource/template"
+    # packSrc:   "manifest/config,manifest/i18n,resource/public,resource/template"
+    version: ""
+    extra: ""
